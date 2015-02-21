@@ -15,7 +15,7 @@ Possible error situations:
 8. Checkbox "I agree with everything" is not checked
 9. Name and data - alphanumeric characters
 
-Solution works in IE9+
+*Solution works in IE9+*
 
 
 
@@ -37,4 +37,4 @@ Solution works in IE9+
  8. Checkbox "Согласен со всем" не отмечен
  9. Имя и данные - буквенно-цифровые символы
 
- Реализация работает в IE9+
+ *Реализация работает в IE9+*
