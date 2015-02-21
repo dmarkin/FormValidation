@@ -1,21 +1,21 @@
-**Validation of form**
-Condition:
-Validate form fields must be in the process of filling (but not show error messages until user has entered something).
-Form will not be sent by click, if there are errors. In this case, the submit button must to be inactive.
-Fields with an error should be highlighted, indicating the specific error.
+ **Validation of form**
+ Condition:
+ Validate form fields must be in the process of filling (but not show error messages until user has entered something).
+ Form will not be sent by click, if there are errors. In this case, the submit button must to be inactive.
+ Fields with an error should be highlighted, indicating the specific error.
 
-Possible error situations:
-1. The field must be filled, not filled
-2. Error in email (checked using regexp)
-3. email is already registered (consult with [a static list of email-s, which is stored in the global variable usedEmails,] or by reference ajax-request to the server https://aqueous-reaches-8130.herokuapp.com/)
-4. The password is too short (five characters or less)
-5. Password is too easy (only numbers, only letters)
-6. Password contains illegal characters (allowed - letters, numbers, underscore and hyphen)
-7. International telephone recording format (+ 38xxxxxxxxxx) is not sustained
-8. Checkbox "I agree with everything" is not checked
-9. Name and data - alphanumeric characters
+ Possible error situations:
+ 1. The field must be filled, not filled
+ 2. Error in email (checked using regexp)
+ 3. email is already registered (consult with [a static list of email-s, which is stored in the global variable usedEmails,] or by reference ajax-request to the server https://aqueous-reaches-8130.herokuapp.com/)
+ 4. The password is too short (five characters or less)
+ 5. Password is too easy (only numbers, only letters)
+ 6. Password contains illegal characters (allowed - letters, numbers, underscore and hyphen)
+ 7. International telephone recording format (+ 38xxxxxxxxxx) is not sustained
+ 8. Checkbox "I agree with everything" is not checked
+ 9. Name and data - alphanumeric characters
 
-*Solution works in IE9+*
+ *Solution works in IE9+*
 
 
 
