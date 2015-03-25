@@ -1,8 +1,8 @@
  **Validation of form**
- Condition:
- Validate form fields must be in the process of filling (but not show error messages until user has entered something).
- Form will not be sent by click, if there are errors. In this case, the submit button must to be inactive.
- Fields with an error should be highlighted, indicating the specific error.
+Condition:
+Validate form fields must be in the process of filling (but not show error messages until user has entered something).
+Form will not be sent by click, if there are errors. In this case, the submit button must to be inactive.
+Fields with an error should be highlighted, indicating the specific error.
 
  Possible error situations:
 * The field must be filled, not filled
@@ -21,10 +21,10 @@
 
 
  **Валидация формы**
- Условие:
- Валидировать поля формы необходимо в процессе набора (но не показывать ошибки до того, как пользователь что-то ввел).
- Форма не должна отправляться по клику, если при заполнении возникли ошибки.
- В этом случае кнопка отправки формы должна быть неактивной. Поля с ошибкой должны подсвечиваться, сообщая о конкретной ошибке.
+Условие:
+Валидировать поля формы необходимо в процессе набора (но не показывать ошибки до того, как пользователь что-то ввел).
+Форма не должна отправляться по клику, если при заполнении возникли ошибки.
+В этом случае кнопка отправки формы должна быть неактивной. Поля с ошибкой должны подсвечиваться, сообщая о конкретной ошибке.
 
  Возможные ошибочные ситуации:
 * Поле, обязательное для заполнения, не заполнено
